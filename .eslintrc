@@ -1,0 +1,30 @@
+{
+  "extends": "airbnb-typescript",
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint/eslint-plugin"
+  ],
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "@typescript-eslint/lines-between-class-members": 0,
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/dot-notation": 0,
+    "@typescript-eslint/no-implied-eval": 0,
+    "@typescript-eslint/no-throw-literal": 0,
+    "@typescript-eslint/return-await": 0,
+    "@typescript-eslint/semi": 0,
+    "react/prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-curly-newline": 0,
+    "react/react-in-jsx-scope": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "object-curly-newline": 0,
+    "default-case": 0,
+    "no-plusplus": 0
+  }
+}

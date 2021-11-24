@@ -1,0 +1,62 @@
+{
+  "name": "react-fetch-hoc",
+  "version": "1.0.0",
+  "description": "React Higher-Order Component (HOC) for observing and invoking fetch actions",
+  "source": "src/index.ts",
+  "main": "lib/react-fetch-hoc.js",
+  "module": "lib/react-fetch-hoc.module.js",
+  "exports": "./lib/react-fetch-hoc.modern.js",
+  "unpkg": "./lib/react-fetch-hoc.umd.js",
+  "types": "./lib/types/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "webpack serve --progress --config webpack.config.development.js",
+    "docs": "yarn run build && webpack --progress --config webpack.config.docs.js",
+    "lint": "eslint src && eslint examples",
+    "clean": "rimraf lib",
+    "watch": "microbundle watch --no-sourcemap",
+    "compile": "microbundle --no-sourcemap",
+    "build": "yarn run clean && yarn run compile",
+    "prepublishOnly": "yarn run lint && yarn run build"
+  },
+  "keywords": [
+    "react",
+    "fetch",
+    "action"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fakundo/react-fetch-hoc"
+  },
+  "author": "Roman Samoylov (https://github.com/fakundo)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "html-webpack-plugin": "^5.3.2",
+    "microbundle": "^0.13.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}

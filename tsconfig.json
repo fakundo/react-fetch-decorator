@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "paths": {
+      "react-fetch-hoc": [
+        "./lib/types"
+      ]
+    }
+  },
+}
