@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "react",
     "paths": {
-      "react-fetch-hoc": [
+      "react-fetch-decorator": [
         "./lib/types"
       ]
     }

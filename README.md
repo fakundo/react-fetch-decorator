@@ -1,6 +1,6 @@
-# react-fetch-hoc
+# react-fetch-decorator
 
-[![npm](https://img.shields.io/npm/v/react-fetch-hoc.svg)](https://www.npmjs.com/package/react-fetch-hoc)
+[![npm](https://img.shields.io/npm/v/react-fetch-decorator.svg)](https://www.npmjs.com/package/react-fetch-decorator)
 
 React Higher-Order Component (HOC) for observing and invoking `fetch` requests.
 
@@ -12,21 +12,21 @@ Features:
 ### Installation
 
 ```
-npm i react-fetch-hoc
+npm i react-fetch-decorator
 ```
 
 ### Demo
 
-[Demo](https://fakundo.github.io/react-fetch-hoc/) 
+[Demo](https://fakundo.github.io/react-fetch-decorator/) 
 / 
-[Source](https://github.com/fakundo/react-fetch-hoc/tree/master/examples)
+[Source](https://github.com/fakundo/react-fetch-decorator/tree/master/examples)
 
 ### Usage
 
 ```js
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import withActions from 'react-fetch-hoc'
+import withActions from 'react-fetch-decorator'
 
 class Dog extends Component {
   static propTypes = {

@@ -28,7 +28,7 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.js'],
     alias: {
-      'react-fetch-hoc': path.resolve(__dirname),
+      'react-fetch-decorator': path.resolve(__dirname),
     },
   },
 }

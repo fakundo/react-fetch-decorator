@@ -1,5 +1,5 @@
 import * as React from 'react'
-import withActions, { ActionPropType } from 'react-fetch-hoc'
+import withActions, { ActionPropType } from 'react-fetch-decorator'
 
 const App = ({ fetchDogAction }: { fetchDogAction: ActionPropType }) => {
   const { isPending, isFailed, isSucceded, error, result } = fetchDogAction

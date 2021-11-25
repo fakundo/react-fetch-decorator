@@ -1,12 +1,12 @@
 {
-  "name": "react-fetch-hoc",
+  "name": "react-fetch-decorator",
   "version": "1.0.0",
   "description": "React Higher-Order Component (HOC) for observing and invoking fetch actions",
   "source": "src/index.ts",
-  "main": "lib/react-fetch-hoc.js",
-  "module": "lib/react-fetch-hoc.module.js",
-  "exports": "./lib/react-fetch-hoc.modern.js",
-  "unpkg": "./lib/react-fetch-hoc.umd.js",
+  "main": "lib/react-fetch-decorator.js",
+  "module": "lib/react-fetch-decorator.module.js",
+  "exports": "./lib/react-fetch-decorator.modern.js",
+  "unpkg": "./lib/react-fetch-decorator.umd.js",
   "types": "./lib/types/index.d.ts",
   "files": [
     "lib"
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fakundo/react-fetch-hoc"
+    "url": "https://github.com/fakundo/react-fetch-decorator"
   },
   "author": "Roman Samoylov (https://github.com/fakundo)",
   "license": "MIT",
